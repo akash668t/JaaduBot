@@ -16,6 +16,6 @@ async def amireallyalive(alive):
     await alive.edit("`Abe Dalle Apna Kaam Kar Baap Ko Mat Dekh.\n\nBot version: 1.0\nPython: 3.7.3\n\n`"
                      f"`Mera Maalik`: {DEFAULTUSER}\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\nfork by:` @ranger_op\n"
-                     "`Sabka Baap {DEFAULTUSER}\n\nAlways with my Maalik\n`"
+                     f"`Sabka Baap` : {DEFAULTUSER} \n" "`Always with my Maalik\n`"
                      "[Deploy this userbot Now](https://github.com/Amberyt/JaaduBot)")
 
