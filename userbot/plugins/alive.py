@@ -15,12 +15,12 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`Apna Kaam Kar Na Lawde. Baap ke bot ko kya dekhra\nTelethon version: 6.9.0\nPython: 3.7.3\n\n`"
                      f"`Mera owner`: {DEFAULTUSER}\n"
-                     "`
-██╗░░██╗██╗
-██║░░██║██║
-███████║██║
-██╔══██║██║
-██║░░██║██║
-╚═╝░░╚═╝╚═╝\nfork by:` @ranger_op\n"
+
+"`██╗░░██╗██╗
+"`██║░░██║██║
+"`███████║██║
+"`██╔══██║██║
+"`██║░░██║██║
+"`╚═╝░░╚═╝╚═╝\n`" "fork by:` @ranger_op\n"
                      "`Nazar Lagane Wale Teri Maa Ki Chut\n\nAlways with my maalik!\n`"
                      "[Deploy this userbot Now](https://github.com/Amberyt/Jaadubot")
