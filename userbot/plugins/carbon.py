@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [GujjuBot](https://www.github.com/japarmar/GujjuBot)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [JaaduBot](https://www.github.com/Amberyt/JaaduBot)>> ",
 
          force_document=True,
 
