@@ -37,7 +37,7 @@ async def _(event):
                "`2`. Bakchodi Karne.\n"
 
                "`3`. Muh Me Lene\n"
-               "`4`. Nudes Dene\n")
+
          ONE = ("Tera Kaam Note Karlia Ab Zyada Spam Kia to Gaand Par Laat Maar Kar Block Kardia Jaega.\n\n"
                 "**⚠️ Agar Jyada Jaldi Hai To Ek Aur Mssg Kar Aur Jaadu Dekh. ⚠️**\n\n"
                 "__Use__ `/start` __to go back to the main menu.__")
@@ -45,9 +45,8 @@ async def _(event):
 
          THREE = ("`Ab Shaant Beth Reply Mil Jaega Jab Me Online Aauga`\n**Baar Baar Mssg Mat Kar Smja Lawde**")
         
-       LWARN = ("**Saale Ab Mssg Kia To Block Krduga Dalle**\n__Use__ `/start` __to go back to the main menu.__")
- 
-     
+        
+     LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__")
         async with borg.conversation(chat) as conv:
          await borg.send_message(chat, PM)
          chat_id = event.from_id
