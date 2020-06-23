@@ -1,11 +1,11 @@
-"""COMMAND : .+gaali"""
+"""COMMAND : .gaalii"""
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("+gaali"))
+@borg.on(admin_cmd("gaalii"))
 async def _(event):
     if event.fwd_from:
         return
