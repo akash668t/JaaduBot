@@ -1,6 +1,6 @@
 """
 Say something interesting...
-Syntax: .lol
+Syntax: .xd
     by @Hack12R
 Dialogues credit: To their Writers Sed
 """
