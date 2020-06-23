@@ -117,7 +117,7 @@ async def _(event):
                 event.chat_id,
                 requires_file_name,
                 supports_streaming=False,
-                caption="Userbot: Powered by @JayuBot",
+                caption="Userbot: Powered by @ranger_op",
                 # Courtesy: @A_Dark_Princ3
             )
             await event.delete()
