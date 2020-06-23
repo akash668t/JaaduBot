@@ -19,7 +19,7 @@ from uniborg.util import admin_cmd
 
 
 
-@borg.on(admin_cmd(pattern=r"smd"))
+@borg.on(admin_cmd(pattern=r"xd"))
 
 async def _(event):
 
