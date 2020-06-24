@@ -51,7 +51,7 @@ async def _(event):
     pack = 1
     userid = event.from_id
     packname = f"{user.first_name}'s JaaduBot Vol.{pack}"
-    packshortname = f"vol_{pack}_with_{userid}"
+    packshortname = f"vol._{pack}_with_{userid}"
     await event.edit("`Look dat way,it's a gurl!`**（　ﾟДﾟ）**\n`Meanwhile, lemme kang this stcker over hehe`**ヽ༼ ಠ益ಠ ༽ﾉ**")
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -114,7 +114,7 @@ async def _(event):
                 await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
                 return
             elif response.text == "Sorry, this short name is unacceptable.":
-                packshortname = f"pack_{pack}_animated_{user.id}"
+                packshortname = f"pack___{pack}_animated_{user.id}"
                 await silently_send_message(bot_conv, packshortname)
         else:
             await silently_send_message(bot_conv, "/cancel")
@@ -166,7 +166,7 @@ async def _(event):
                             await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
                             return
                         elif response.text == "Sorry, this short name is unacceptable.":
-                            packshortname = f"pack_{pack}_animated_{user.id}"
+                            packshortname = f"pack___{pack}_animated_{user.id}"
                             await silently_send_message(bot_conv, packshortname)
                     else:
                         await event.edit("Pack No. " + str(prevv) + " full! Switching to Vol. " + str(pack))
