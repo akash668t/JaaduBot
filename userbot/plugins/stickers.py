@@ -52,7 +52,7 @@ async def _(event):
     userid = event.from_id
     packname = f"{user.first_name}'s JaaduBot Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Wo dekh Kya Mast Maal Aari Hai!`**😉😉👺👺👺😉😉**\n`Me is sticker ko chura rha hu`**😉😉😉**")
+    await event.edit("`Wo dekh Kya Mast Maal Aari Hai!`**🤤🤤**\n`Me is sticker ko chura rha hu`**😙😙**")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Ranger_op.png"
